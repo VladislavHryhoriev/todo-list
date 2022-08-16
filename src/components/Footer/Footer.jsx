@@ -6,11 +6,11 @@ const Footer = () => {
 		<footer className={styles["footer"]}>
 			<h4 className={styles["footer-count"]}>5 items left</h4>
 			<ul className={styles["status-list"]}>
-				<li> <a href='#' className={styles["status-list__Item"]}>All</a></li>
-				<li> <a href='#' className={styles["status-list__Item"]}>Active</a></li>
-				<li> <a href='#' className={styles["status-list__Item"]}>Compeleted</a></li>
+				<li><button className={styles["button"]}>All</button></li>
+				<li><button className={styles["button"]}>Active</button></li>
+				<li><button className={styles["button"]}>Comleted</button></li>
 			</ul>
-			<button>Clear Completed</button>
+			<button className={styles["button"]}>Clear Completed</button>
 		</footer>
 	);
 };

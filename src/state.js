@@ -1,7 +1,7 @@
 let initialState = {
 	_state: {
 		theme: 'dark-theme',
-		newPostText: '',
+
 		statusButton: 'ALL', // ACTIVE, COMPLETED
 		posts: [
 			{
