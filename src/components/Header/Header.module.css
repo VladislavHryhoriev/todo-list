@@ -1,0 +1,11 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.theme-switcher {
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	border: none;
+}

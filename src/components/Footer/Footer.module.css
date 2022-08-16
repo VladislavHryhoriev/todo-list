@@ -1,0 +1,23 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	font-size: 1.15rem;
+	color: #aaa;
+}
+
+.footer-count {
+	font-weight: 400;
+}
+
+.status-list {
+	display: flex;
+	list-style: none;
+}
+
+.status-list__Item {
+	color: inherit;
+	text-decoration: none;
+	margin: 0 10px;
+}

@@ -1,0 +1,40 @@
+.tasks {
+}
+
+.task {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	border-bottom: 3px solid #aaa;
+}
+
+.task-body {
+	width: 100%;
+	display: flex;
+	padding: 25px 20px;
+	background: #fff;
+}
+
+#task-body__status {
+	margin-right: 30px;
+	background: #000;
+}
+
+.task-body__text {
+	font-size: 24px;
+	width: 85%;
+}
+
+.task-body__delete {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	width: 25px;
+	background: none;
+	border: none;
+}
+
+.image-svg {
+	width: 20px;
+}

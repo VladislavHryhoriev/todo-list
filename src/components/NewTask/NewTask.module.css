@@ -1,0 +1,31 @@
+.new-task {
+	position: relative;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.new-task__input {
+	width: 100%;
+	padding: 20px;
+	padding-right: 80px;
+	font-size: 1.25rem;
+	overflow: hidden;
+	resize: none;
+	font-family: inherit;
+}
+
+.new-task__send {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	width: 25px;
+	background: none;
+	border: none;
+}
+
+.image-svg {
+	width: 25px;
+	height: 25px;
+}

@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	background: #777;
+}
+
+.todo-app {
+	width: 700px;
+}
+
+.todo-menu {
+	margin-top: 20px;
+	background: #fff;
+}
